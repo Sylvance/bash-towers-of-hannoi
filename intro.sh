@@ -1,8 +1,4 @@
 #!/bin/bash
-DIR="${BASH_SOURCE%/*}"
-if [[ ! -d "$DIR" ]]; then DIR="$PWD"; fi
-. "$DIR/colors.sh"
-
 echo -e "${LIGHT_GREEN}"
 cat <<EOF
                                     ___
