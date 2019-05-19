@@ -6,6 +6,4 @@ if [[ ! -d "$DIR" ]]; then DIR="$PWD"; fi
 
 . "$DIR/intro.sh"
 
-echo -e "${LIGHT_RED}"
 . "$DIR/towers.sh"
-echo -e "${NO_COLOR}\n"
